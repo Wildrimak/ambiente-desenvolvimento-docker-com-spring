@@ -7,7 +7,8 @@ Essa aplicação executa um hot reload na aplicação gerada pelo docker atualiz
 *  Configure o pom para ter o devtools no momento de build da aplicação também:
 
 
-	```<build>
+```
+	<build>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
@@ -17,8 +18,8 @@ Essa aplicação executa um hot reload na aplicação gerada pelo docker atualiz
 				</configuration>
 			</plugin>
 		</plugins>
-	```</build>
-
+	</build>
+```
 
 *  Coloque essa configuração no application.properties:
 
